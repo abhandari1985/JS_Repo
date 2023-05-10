@@ -50,9 +50,3 @@ console.log("Sum of even numbers multiplied 5 times is: "+arraySum)
 // Find sum of array having only even numbers and each element is multiplied by 5
 let total = arrayNumbers.filter(eve=>eve%2==0).map(eve=>eve*5).reduce((sum,eve)=>sum+eve,0)
 console.log("Sum of array having only even numbers and each element is multiplied by 5 is: "+total)
-
-
-
-
-
-
